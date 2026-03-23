@@ -34,12 +34,13 @@ section {
     background-color: #d4eaff;
     justify-content: space-around;
     border-radius: 10px;
+    height: 300px;
 }
 
 .direita {
-    width: 39%;
+    width: 28%;
     margin: 1%;
-    background-color: #d4eaff;
+    background-color:  #d4eaff;
     color: #0131c0;
     font-family: "Arial";
     display: flex;
@@ -75,18 +76,22 @@ section {
     display: flex;
     justify-content: left;
 }
+#produtos img{
+    justify-content: center;
+}
 .blocos{
     background: #ffffff;
     color: rgb(0, 0, 0);
     padding: 15px;
-    border-radius: 20px;
-    height: 150px;
+    border-radius: 15px;
+    height: 180px;
     display: block;
     margin-bottom: 10px;
-    width: 130px;
-    margin-top: 30px;
-    margin: 10px;
+    width: 160px;
+    margin: 5px;
+    justify-content: center;
 }
+
 
 button {
     background: #0131c0;
@@ -164,7 +169,7 @@ button:hover {
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
-    height: 40px;
+    height: 45px;
     display: flex;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -179,4 +184,32 @@ button:hover {
     display: flex;
     margin-bottom: 10px;
     margin-left: 10px;
+}
+.linha3 {
+    width: 100%;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 70px;
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.linha4 {
+    width: 100%;
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    height: 55px;
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
